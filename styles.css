@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #644973, #5188b9);
+    color: #51528f;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #e5e3e7;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    opacity: 65%;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.main-icon {
+    height: 120px;
+    width: 120px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #434343;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 65%;
+    background-color: #f0f4f8;
+    color: #333;
+    outline: none;
+    font-family: inherit;
+    box-shadow: inset 0 0 3px #cccccc;
+}
+
+button {
+    background-color: #969597;
+    color: rgb(246, 243, 243);
+    cursor: pointer;
+    outline: none;
+    width: 30%;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+}
+
+button:hover {
+    background-color: #b4b2b5;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #6a6868;
+}
+
+#city-name, #date-time, #temperature, #weather-description, #wind-speed {
+    margin-bottom: 10px;
+}
+
+#temperature {
+    margin-top: auto;
+    font-size: 2em;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: #51528f;
+}
+
+#wind-speed {
+    margin-top: auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
